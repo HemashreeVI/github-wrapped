@@ -49,7 +49,7 @@ button { cursor: pointer; }
 .foot { position: absolute; bottom: 20px; left: 0; right: 0; text-align: center; font-size: 13px; color: #8c84ad; z-index: 1; padding: 0 16px; }
 .foot a { color: #c9c1ec; }
 @media (max-width: 860px) {
-  .landing { grid-template-columns: 1fr; gap: 36px; padding-top: 40px; }
+  .landing { grid-template-columns: minmax(0, 1fr); gap: 36px; padding-top: 40px; }
   .teasers { grid-template-columns: repeat(4, 1fr); gap: 10px; max-width: none; }
   .teasers li { border-radius: 16px; padding: 12px; }
   .teasers b { font-size: 22px; }
